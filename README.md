@@ -20,3 +20,19 @@ You can view the notebook in dynamic form by clicking the following image:
 1. Download [Anaconda]().
 2. Download [cmder]() if on windows.
 3. Run `jupyter lab`. 
+
+
+## Example 1 
+This example uses a horizontal bar chart to show which city is most popular. The vertical axis represents the cities being compared while the horizontal axis reveals the popularity of each city. 
+
+In order to create the data functions such as random.seed() .... etc were used. 
+
+
+
+
+
+
+## References
+
+-https://www.geeksforgeeks.org/random-seed-in-python/
+

@@ -3,20 +3,25 @@
 
 ***
 
-This repository contains an overview of pyplot in a jupyter notebook.
+This repository contains two jupyter notebooks.
+
+pyplot.ipynb contains an overview of the matplotlib.pyplot python package. In this notbook I created three examples of random data and use plots to analyse them.
+
+cao.ipynb shows how to load the CAO points information from the official website into a pandas data frame. Then I compare the CAO points from 2019, 2020 and 2021. 
 
 
 ## Quick steps
 
 ***
 
-You can view the notebooks in static form by clicking the following image:
+You can view these notebooks in static form by clicking the following image:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
 
-You can view the notebooks in dynamic form by clicking the following image:
+You can view these notebooks in dynamic form by clicking the following image:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
+
 
 ## How to run a notebook:
 

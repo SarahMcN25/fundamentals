@@ -35,28 +35,6 @@ You can view these notebooks in dynamic form by clicking the following image:
 ## Pyplot:
 
 
-### Example 1 
-This example uses a horizontal bar chart to show which city is most popular. The vertical axis represents the cities being compared while the horizontal axis reveals the popularity of each city. 
-
-In order to create the data functions such as random.seed() .... etc were used. 
-
-
-
-### Example 2
-This example uses histograms showing a distribution of random numbers using the random.normal() and random.seed() functions
-
-
-
-### Example 3
-This scatterplot shows randomly chosen bus arrival times and relative probabilities. 
-
-
-
-### Example 4
-This is a pie chart about favourite pets.
-
-
-
 ## Pandas:
 
 Using pandas to compare CAO points in the last three years. 

@@ -1,46 +1,95 @@
-# Fundamentals Project
-## Author: Sarah McNelis
+# ***Fundamentals Project***
+## Author: Sarah McNelis - G00398343
+
+***
+<br>
+
+## Overview
+
+This repository contains two jupyter notebooks:
+
+1. pyplot.ipynb contains an overview of the matplotlib pyplot python package and an in-depth explanation of three plots.
+
+2. cao.ipynb explains how to load the CAO points information from the official website into a pandas data frames and compares the CAO points from 2019, 2020 and 2021.
+
+<br>
 
 ***
 
-This repository contains two jupyter notebooks.
+<br>
 
-pyplot.ipynb contains an overview of the matplotlib.pyplot python package. In this notbook I created three examples of random data and use plots to analyse them.
-
-cao.ipynb shows how to load the CAO points information from the official website into a pandas data frame. Then I compare the CAO points from 2019, 2020 and 2021. 
-
-
-## Quick steps
-
-***
-
-You can view these notebooks in static form by clicking the following image:
-
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
-
-You can view these notebooks in dynamic form by clicking the following image:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
-
-
-## How to run a notebook:
-
-***
+## How to run a [jupyter notebook](https://jupyter.org/):
 
 1. Download [Anaconda]().
 2. Download [cmder]() if on windows.
-3. Run `jupyter lab`. 
+3. Run `jupyter lab` on the command line. 
+
+<br>
+
+***
+
+<br>
+
+## Quick steps
+
+### NB viewer
+[Nbviewer](https://nbviewer.org/) is an online tool created by the Jupyter community for rendering notebooks in static form.
+
+You can view this notebook on nbviewer by clicking on the following badge:
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
 
 
-## Pyplot:
+### Binder
+Mybinder is an online service where you can share a notebook in a dynamic and interactive way.
+
+You can view this notebook on mybinder by clicking on the following badge:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
+
+<br>
+
+***
+
+<br>
+
+## 1. pyplot.ipynb
 
 
-## Pandas:
 
-Using pandas to compare CAO points in the last three years. 
+<br>
 
+***
+
+<br>
+
+## 2. cao.ipynb
+
+
+
+
+
+<br>
+
+***
+
+<br>
+
+## **Conclusion**
+This readme contains a quick overview of
+
+
+
+<br>
+
+***
+
+<br>
 
 ## References
 
-1. https://www.geeksforgeeks.org/random-seed-in-python/
+All references and code used in this notebook have been sourced in Oct/Nov 2021 from the following webpages:
+
+- 
+
 

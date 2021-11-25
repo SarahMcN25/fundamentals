@@ -67,7 +67,7 @@ You can view these notebooks on mybinder by clicking on the following badge:
 ## The Matplotlib Pyplot Package
 Matplotlib pyplot is a state based interface used for data visualisation. It is a convenient way for users to generate high quality plots with minimal effort. Pyplot can define and store the current state using various commands and functions. This package has 137 functions that can be used for plotting. In order to demonstrate how pyplot works this notebook explains for following plots in detail. 
 
-### - Horizontal Bar Plot
+## Horizontal Bar Plot
 This function takes data and plots it using horizontal bars. It has 5 parameters; y, width, height, left, align. The example in the notebook uses numpy random to generate data for y values and for the width values. Then other pyplot functions are used for example:
 - yticks sets the ticks and labels on each of the horizontal bars.
 - gca is used to invert the y-axis so that the place names match with the data generated for those cities.
@@ -82,7 +82,7 @@ This function takes data and plots it using horizontal bars. It has 5 parameters
 
 <br>
 
-### - Scatter Plot
+## Scatter Plot
 This function contains the following parameters; x, y, s, c, marker, cmap, norm, vmin, vmax, alpha, linewidths, edgecolors, plotnonfinite. This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency. Along with the scatter plot, these two other pyplot functions are used:
 - show is used to call and dsplay the scatter plot.
 savefig is used in order to save this figure as a png file. 
@@ -93,7 +93,7 @@ savefig is used in order to save this figure as a png file.
 
 <br>
 
-### - Histogram
+## Histogram
 Histograms uses these parameters; x, bins, range, density, weights, cumulative, bottom, histtype, align, orientation, rwidth, log, color, label, stacked. The histogram created in this notebook displays 10000 random values of mean and standard deviation in normal distribution. In other words, various mu and sigma values are passed into the argument as x and are plotted in a bell shaped curve. Other pyplot functions are used here for example:
 - xlabel sets the mu value label on the x-axis.
 - ylabel describes the sigma values on the y-axis.
@@ -108,6 +108,15 @@ Histograms uses these parameters; x, bins, range, density, weights, cumulative, 
 <br>
 
 ![histo_png](Histogram.png)
+
+<br>
+
+## Subplots
+This function allows users to create one single figure with a set of subplots. It's parameters are; nrows, ncols, sharex, sharey, squeeze, subplot_kw, gridspec_kw, fig_kw. The subplot in this notebook sets one row with three columns. The sharex parameter is set to true which allows the data to be shares on all axes. Then the axs and fig functions are used to call a bar plot at position 0, a scatter plot at position 1 and the plot function plots a y versus x line. These three subplots are displayed in a row with a figure subtitle as seen below. 
+
+<br>
+
+![subplot_png](Subplot.png)
 
 <br>
 

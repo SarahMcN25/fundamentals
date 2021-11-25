@@ -1,4 +1,4 @@
-# ***Fundamentals Project***
+# **Fundamentals Project**
 ## Author: Sarah McNelis - G00398343
 
 ***
@@ -6,11 +6,20 @@
 
 ## Overview
 
-This repository contains two jupyter notebooks:
+This repository contains the following two jupyter notebooks:
 
 1. pyplot.ipynb contains an overview of the matplotlib pyplot python package and an in-depth explanation of three plots.
 
 2. cao.ipynb explains how to load the CAO points information from the official website into a pandas data frames and compares the CAO points from 2019, 2020 and 2021.
+
+<br>
+
+***
+
+<br>
+
+## requiremnet.txt
+This is a text file that contains a list of all the packages requried to import in order to run this notebook. 
 
 <br>
 
@@ -35,7 +44,7 @@ This repository contains two jupyter notebooks:
 ### NB viewer
 [Nbviewer](https://nbviewer.org/) is an online tool created by the Jupyter community for rendering notebooks in static form.
 
-You can view this notebook on nbviewer by clicking on the following badge:
+You can view both notebooks on nbviewer by clicking on the following badge:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
 
@@ -43,7 +52,7 @@ You can view this notebook on nbviewer by clicking on the following badge:
 ### Binder
 Mybinder is an online service where you can share a notebook in a dynamic and interactive way.
 
-You can view this notebook on mybinder by clicking on the following badge:
+You can view these notebooks on mybinder by clicking on the following badge:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
 
@@ -53,7 +62,7 @@ You can view this notebook on mybinder by clicking on the following badge:
 
 <br>
 
-# 1. pyplot.ipynb
+# 1. Pyplot Notebook
 
 ## The Matplotlib Pyplot Package
 Matplotlib pyplot is a state based interface used for data visualisation. It is a convenient way for users to generate high quality plots with minimal effort. Pyplot can define and store the current state using various commands and functions. This package has 137 functions that can be used for plotting. In order to demonstrate how pyplot works this notebook explains for following plots in detail. 
@@ -64,7 +73,8 @@ This function takes data and plots it using horizontal bars. It has 5 parameters
 - gca is used to invert the y-axis so that the place names match with the data generated for those cities.
 - xlabel is used to put a label on the x-axis
 - title adds a title to the plot
-- show is used to call and display the horizontal bar plot. 
+- show is used to call and display the horizontal bar plot.
+- savefig is used to save the figure as a png file. 
 
 <br>
 
@@ -73,7 +83,9 @@ This function takes data and plots it using horizontal bars. It has 5 parameters
 <br>
 
 ### - Scatter Plot
-This function contains the following parameters; x, y, s, c, marker, cmap, norm, vmin, vmax, alpha, linewidths, edgecolors, plotnonfinite. This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency.
+This function contains the following parameters; x, y, s, c, marker, cmap, norm, vmin, vmax, alpha, linewidths, edgecolors, plotnonfinite. This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency. Along with the scatter plot, these two other pyplot functions are used:
+- show is used to call and dsplay the scatter plot.
+savefig is used in order to save this figure as a png file. 
 
 <br>
 
@@ -91,6 +103,7 @@ Histograms uses these parameters; x, bins, range, density, weights, cumulative, 
 - ylim sets the limits on the y-axis from bottom to top.
 - grid displays the plot on a grid.
 - show is used to call and display the histogram. 
+- savefig is also used here to create a png for this figure. 
 
 <br>
 
@@ -102,7 +115,7 @@ Histograms uses these parameters; x, bins, range, density, weights, cumulative, 
 
 <br>
 
-## 2. cao.ipynb
+## 2. CAO Notebook
 
 
 
@@ -115,7 +128,7 @@ Histograms uses these parameters; x, bins, range, density, weights, cumulative, 
 <br>
 
 ## **Conclusion**
-This readme contains a quick overview of
+This readme contains a quick overview of two notebooks. 
 
 
 

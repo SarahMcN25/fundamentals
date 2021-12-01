@@ -78,7 +78,7 @@ This function takes data and plots it using horizontal bars. It has 5 parameters
 
 <br>
 
-![barh_png](Horizontal_Bar_Plot.png)
+![barh_png](img/horizontal_barplot.png)
 
 <br>
 
@@ -89,7 +89,7 @@ savefig is used in order to save this figure as a png file.
 
 <br>
 
-![scatter_png](Scatterplot.png)
+![scatter_png](img/scatterplot.png)
 
 <br>
 
@@ -107,7 +107,7 @@ Histograms uses these parameters; x, bins, range, density, weights, cumulative, 
 
 <br>
 
-![histo_png](Histogram.png)
+![histo_png](img/histogram.png)
 
 <br>
 
@@ -116,7 +116,7 @@ This function allows users to create one single figure with a set of subplots. I
 
 <br>
 
-![subplot_png](Subplot.png)
+![subplot_png](img/subplot.png)
 
 <br>
 

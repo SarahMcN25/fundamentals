@@ -1,3 +1,5 @@
+![jupyter](img/jupyter.png)
+
 # Jupyter Notebooks
 
 

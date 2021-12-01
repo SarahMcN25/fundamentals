@@ -1,16 +1,15 @@
-# **Fundamentals Project**
-## Author: Sarah McNelis - G00398343
+# Jupyter Notebooks
 
-***
 <br>
 
 ## Overview
 
-This repository contains the following two jupyter notebooks:
+This repository contains the following two jupyter notebooks as part of my project for 'Fundamental of Data Analysis' module:
 
-1. pyplot.ipynb contains an overview of the matplotlib pyplot python package and an in-depth explanation of three plots.
+1. `pyplot.ipynb` contains an overview of the matplotlib pyplot package in python and an in-depth explanation of three plots.
 
-2. cao.ipynb explains how to load the CAO points information from the official website into a pandas data frames and compares the CAO points from 2019, 2020 and 2021.
+
+2. `cao.ipynb` explains how to load the CAO points information from the official website into data frames using pandas and then compares the CAO points from 2019, 2020 and 2021.
 
 <br>
 
@@ -27,11 +26,24 @@ This is a text file that contains a list of all the packages requried to import 
 
 <br>
 
-## How to run a [jupyter notebook](https://jupyter.org/):
+## Quick Steps
 
-1. Download [Anaconda]().
-2. Download [cmder]() if on windows.
-3. Run `jupyter lab` on the command line. 
+### Install
+
+1. Download and install [Anaconda]().
+2. Download and install [cmder]() if on windows.
+
+<br>
+
+### How to run:
+
+1. Open [cmder] terminal.
+2. Select repository `fundamentals`.
+3. Run `jupyter lab` or `jupyter notebook`on the command line.
+4. The notebook should automatically launch in your browser. 
+5. If not, then you may need to temporarily disable security software as some internet security can interfere with jupyter. 
+6. Once jupyter is open in your browser select either notebook: `pyplot.ipynb` or `cao.ipynb` 
+7. In the selected notebook click on `kernal` on the tool bar and then `restart and run all`. 
 
 <br>
 
@@ -39,28 +51,7 @@ This is a text file that contains a list of all the packages requried to import 
 
 <br>
 
-## Quick steps
-
-### NB viewer
-[Nbviewer](https://nbviewer.org/) is an online tool created by the Jupyter community for rendering notebooks in static form.
-
-You can view both notebooks on nbviewer by clicking on the following badge:
-
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
-
-
-### Binder
-Mybinder is an online service where you can share a notebook in a dynamic and interactive way.
-
-You can view these notebooks on mybinder by clicking on the following badge:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
-
-<br>
-
-***
-
-<br>
+## Explore
 
 # 1. Pyplot Notebook
 
@@ -126,9 +117,58 @@ This function allows users to create one single figure with a set of subplots. I
 
 ## 2. CAO Notebook
 
+<br>
+
+***
+
+<br>
 
 
+## Credits
+Any particular blogs here....
 
+<br>
+
+***
+
+<br>
+
+## Badges
+
+### NB viewer
+[Nbviewer](https://nbviewer.org/) is an online tool created by the Jupyter community for rendering notebooks in static form.
+
+You can view both notebooks on nbviewer by clicking on the following badge:
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
+
+
+### Binder
+Mybinder is an online service where you can share a notebook in a dynamic and interactive way.
+
+You can view these notebooks on mybinder by clicking on the following badge:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
+
+<br>
+
+***
+
+<br>
+
+## Contact
+If you have any queries or if you would like to contribute to this repository please contact me on the below link:
+
+[Sarah McNelis](G00398343@gmit.ie)
+
+<br>
+
+***
+
+<br>
+
+## Tests
+Maybe some troubleshooting problems here?? Errors?? Add later.....
 
 <br>
 
@@ -138,6 +178,8 @@ This function allows users to create one single figure with a set of subplots. I
 
 ## **Conclusion**
 This readme contains a quick overview of two notebooks. 
+
+What would I do with this project in the future???
 
 
 
@@ -149,8 +191,11 @@ This readme contains a quick overview of two notebooks.
 
 ## References
 
-All references and code used in this notebook have been sourced in Oct/Nov 2021 from the following webpages:
+All references and code used in these notebooks have been sourced in Oct/Nov/Dec 2021 from the following webpages:
 
 - 
+-
 
 
+***
+# End

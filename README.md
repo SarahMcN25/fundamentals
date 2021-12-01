@@ -167,7 +167,7 @@ What would I do with this project in the future???
 
 ## References
 
-All references and code used in these notebooks have been sourced in Oct/Nov/Dec 2021 and cited at the end of each notebook. 
+All references and code used in these notebooks have been sourced in Oct/Nov/Dec 2021 and cited in each notebook. 
 
 <br>
 

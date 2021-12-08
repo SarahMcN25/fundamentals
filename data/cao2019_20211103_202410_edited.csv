@@ -22,13 +22,13 @@ AL853	Accounting and Law	305	320
 AL855	Hospitality Management (with International placement)	312	357
 AL857	Digital Marketing	300	360
 AL860	Social Care Practice	309	338
-AL861	Animation and Illustration (portfolio)	#615	899
-AL863	Graphic and Digital Design (portfolio)	#703	898
+AL861	Animation and Illustration (portfolio)	 615 899
+AL863	Graphic and Digital Design (portfolio)	 703 898
 AL864	Early Years Care and Education	307	348
 AL870	Applied Psychology  409	445
 CW018	Business (options, Wexford)	327	349
 CW028	Early Childhood Education and Care (Wexford)    252	308
-CW038	Art (portfolio, Wexford)	#700	700
+CW038	Art (portfolio, Wexford)	 700 700
 CW058	Tourism and Event Management (Wexford)	252	262
 CW068	Applied Social Studies - Professional Social Care (Wexford)	251	280
 CW078	Sustainable Farm Management and Agribusiness (Wexford)	266	320
@@ -55,7 +55,7 @@ CW748	Early Childhood Education and Care	265	338
 CW758	Applied Social Studies - Professional Social Care	290	319
 CW808	Media and Public Relations	248	307
 CW848	Digital Marketing with Analytics	279	307
-CW858	Sports Management and Coaching (options, portfolio)	#700	700
+CW858	Sports Management and Coaching (options, portfolio)	 700 700
 CW908	Business (options)	260	307
 CW938	Business with Law	270	288
 CW948	Accounting	301	408
@@ -69,17 +69,17 @@ CR109	Structural Engineering	341	467
 CR110	Automotive Business Management and Technology	318	347
 CR112	Creative Digital Media	335	389
 CR116	Computer Systems	318	381
-CR121	Music at CIT Cork School of Music	#633	1052
-CR125	Popular Music: Electric Bass Guitar at CIT Cork School of Music	#972	1021
-CR126	Popular Music: Drums at CIT Cork School of Music	#878	1043
-CR127	Popular Music: Electric Guitar at CIT Cork School of Music	#584	761
-CR128	Popular Music: Keyboards at CIT Cork School of Music	#839	1009
-CR129	Popular Music: Voice at CIT Cork School of Music	#857	927
-CR130	Musical Theatre	#500	600
+CR121	Music at CIT Cork School of Music	 633 1052
+CR125	Popular Music: Electric Bass Guitar at CIT Cork School of Music	 972 1021
+CR126	Popular Music: Drums at CIT Cork School of Music	 878 1043
+CR127	Popular Music: Electric Guitar at CIT Cork School of Music	 584 761
+CR128	Popular Music: Keyboards at CIT Cork School of Music	 839 1009
+CR129	Popular Music: Voice at CIT Cork School of Music	 857 927
+CR130	Musical Theatre	 500 600
 CR150	Business Information Systems	326	371
-CR210	Contemporary Applied Art (Ceramics, Glass, Textiles) at CIT Crawford	#979	979
-CR220	Fine Art at CIT Crawford College of Art and Design	#620	819
-CR225	Photography with New Media	#920	920
+CR210	Contemporary Applied Art (Ceramics, Glass, Textiles) at CIT Crawford	 979 979
+CR220	Fine Art at CIT Crawford College of Art and Design	 620	819
+CR225	Photography with New Media	 920 920
 CR305	Physical Sciences (Common Entry)	279	309
 CR310	IT Management	282	317
 CR320	Biomedical Science (Offered jointly by CIT and UCC)	546	556
@@ -102,28 +102,28 @@ CR570	Quantity Surveying	279	342
 CR572	Construction Management	253	300
 CR580	Electrical Engineering	344	374
 CR590	Electronic Engineering	342	411
-CR600	Visual Communications	#587	888
+CR600	Visual Communications	 587 888
 CR660	Tourism Management	249	290
-CR700	Theatre and Drama Studies at CIT Cork School of Music	#768	906
+CR700	Theatre and Drama Studies at CIT Cork School of Music	 768 906
 CK101	Arts - 3 years	300	368
 CK102	Social Science	391	431
-CK104	Arts with Music - 3 or 4 years (BMus or Chinese/European/Int'l Pathway)	#340	409
+CK104	Arts with Music - 3 or 4 years (BMus or Chinese/European/Int'l Pathway)	 340 409
 CK105	Film and Screen Media - 3 years or 4 years (International Pathway)	397	442
 CK107	Geographical and Archaeological Sciences - 3 or 4 years (Int'l Pathway)	326	388
 CK108	Arts International - 4 years	429	466
 CK109	English - 3 years or 4 years (International Pathway)	347	423
 CK110	World Languages	456	506
 CK111	Early Years and Childhood Studies	398	429
-CK112	Theatre and Performative Practices - 3 or 4 years (Int'l Pathway)	#324	470
+CK112	Theatre and Performative Practices - 3 or 4 years (Int'l Pathway)	 324 470
 CK113	Criminology - 3 years or 4 years (International Pathway)	408	430
-CK114	Social Science (Youth and Community Work) - 3 years	#	
-CK115	Social Work - Mature Applicants only	#	
+CK114	Social Science (Youth and Community Work) - 3 years	 	
+CK115	Social Work - Mature Applicants only	 	
 CK116	Sports Studies and Physical Education	499	520
 CK118	Digital Humanities and IT - 3 or 4 years (Work Exper. or Int'l Pathway)	307	361
 CK120	Applied Psychology	506	532
 CK121	Psychology and Computing - 3 or 4 years (Work Experience Pathway)	393	466
 CK122	Government and Political Science	355	410
-CK201	Commerce	465*	489
+CK201	Commerce	465 489
 CK202	Accounting	467	506
 CK203	Business Information Systems	409	444
 CK204	Finance	531	555
@@ -154,28 +154,28 @@ CK505	Food Science	444	477
 CK506	International Development and Food Policy	367	410
 CK600	Engineering	465	532
 CK606	Architecture (offered jointly by UCC and CIT)	465	496
-CK701	Medicine (Undergraduate Entry - HPAT required)	#729	740
+CK701	Medicine (Undergraduate Entry - HPAT required)	 729 740
 CK702	Dentistry	590	613
 CK703	Pharmacy	577	589
-CK704	Occupational Therapy	532*	554
+CK704	Occupational Therapy	532 	554
 CK705	Speech and Language Therapy	509	529
 CK706	Public Health Sciences	419	451
-CK707	Medical and Health Sciences	510*	543
-CK710	General Nursing	440	466
-CK712	Children's and General Nursing (Integrated)	499	520
-CK720	Mental Health Nursing	398	429
-CK730	Intellectual Disability Nursing	359	388
+CK707	Medical and Health Sciences	510  543
+CK710	General Nursing	440	    466
+CK712	Children's and General Nursing (Integrated)	499 	520
+CK720	Mental Health Nursing	398 	429
+CK730	Intellectual Disability Nursing	359 	388
 CK740	Midwifery	444	474
-CK791	Medicine  - Graduate Entry (GAMSAT required)	#58*	59
-AC120	International Business	234	269
-AC137	Liberal Arts	252	275
-CT125	Information Technology	235	280
-CM001	Education - Primary Teaching	452*	462
-CM002	Education - Primary Teaching - Gaeltacht Applicants	#421	440
-CM003	Oideachas - Bunmhúinteoireacht Trí Mheán na Gaeilge	#491	506
-CM004	Oideachas - Bunmhúinteoireacht Trí Mheán na Gaeilge (daltaí Gaeltachta)	#492	569
-CM010	Education Studies	317	373
-CM020	Early Childhood Education	336	363
+CK791	Medicine  - Graduate Entry (GAMSAT required)	 58 	59
+AC120	International Business	234 	269
+AC137	Liberal Arts	252 	275
+CT125	Information Technology	235 	280
+CM001	Education - Primary Teaching	452  462
+CM002	Education - Primary Teaching - Gaeltacht Applicants	 421     440
+CM003	Oideachas - Bunmhúinteoireacht Trí Mheán na Gaeilge	 491    506
+CM004	Oideachas - Bunmhúinteoireacht Trí Mheán na Gaeilge (daltaí Gaeltachta)	 492     569
+CM010	Education Studies	317 	373
+CM020	Early Childhood Education	336	    363
 DB500	Computing	242	320
 DB501	Computing (Cloud Computing)	326	329
 DB502	Computing (Data Analytics and Big Data)	269	269
@@ -200,16 +200,16 @@ DB567	Film	192	295
 DB568	Law	245	308
 DB569	Business (Psychology)	279	338
 DC001	Education - Early Childhood Education	398	424
-DC002	Education - Primary Teaching	462*	485
-DC003	Education - Primary Teaching - Gaeltacht Applicants	#433	473
-DC004	Education - Primary Teaching (Church of Ireland Centre formerly CICE)	#357	
-DC005	Education - Primary Teaching - Irish Sign Language	#316	316
+DC002	Education - Primary Teaching	462 	485
+DC003	Education - Primary Teaching - Gaeltacht Applicants	 433	473
+DC004	Education - Primary Teaching (Church of Ireland Centre formerly CICE)	 357	
+DC005	Education - Primary Teaching - Irish Sign Language	 316	316
 DC009	Arts (Joint Honours) - Humanities	347	408
 DC010	Post Primary Teacher Education - Religious Education and English	386	413
 DC011	Post Primary Teacher Education - Religious Education and History	352	389
-DC012	Post Primary Teacher Education - Religious Education and Music	#367	415
+DC012	Post Primary Teacher Education - Religious Education and Music	 367 415
 DC013	Post Primary Teacher Ed - Gaeilge with French/German/Spanish	410	509
-DC014	BA in Jazz and Contemporary Music Performance	#428	590
+DC014	BA in Jazz and Contemporary Music Performance	 428	590
 DC110	Business Studies International	440	462
 DC111	Business Studies	463	479
 DC112	Global Business (France)	495	510
@@ -268,7 +268,7 @@ DT001	Product Design	433	464
 DT028	Transport Operations and Technology	279	348
 DT035	Electrical Services and Energy Management	293	340
 DT066	Engineering (General Entry)	400	457
-DT101	Architecture (test and interview)	#618	647
+DT101	Architecture (test and interview)	 618 647
 DT106	Planning and Environmental Management	312	337
 DT110	Property Economics (Valuation Surveying)	367	424
 DT111	Quantity Surveying and Construction Economics	391	421
@@ -314,20 +314,20 @@ DT420	Nutraceuticals in Health and Nutrition	392	432
 DT421	Food Innovation	321	366
 DT422	Pharmaceutical Healthcare	397	423
 DT491	Environmental Health	343	380
-DT501	Music	#383	520
+DT501	Music	 383 520
 DT504	Film and Broadcasting	443	467
-DT506	Commercial Modern Music	#468	835
+DT506	Commercial Modern Music	 468 835
 DT508	Game Design	403	454
 DT517	Languages and English Studies	326	419
 DT518	Languages and International Tourism	307	357
-DT529	Drama (Performance)	#371	519
+DT529	Drama (Performance)	 371 519
 DT532	Law (LL.B.)	422	441
-DT533	Contemporary Visual Culture	#	
-DT544	Interior Design	#552	866
-DT545	Design - Visual Communication	#667	897
-DT546	Fine Art	#668	813
+DT533	Contemporary Visual Culture	 	
+DT544	Interior Design	 552	866
+DT545	Design - Visual Communication	 667 897
+DT546	Fine Art	 668 813
 DT555	International Business and Languages	353	399
-DT559	Photography	#700	926
+DT559	Photography	 700 926
 DT571	Social Care	394	424
 DT572	Early Childhood Education	385	403
 DT582	Journalism	347	373
@@ -337,19 +337,19 @@ DL821	English, Media and Cultural Studies	211	317
 DL822	Arts Management	209	319
 DL823	Business Studies - Entrepreneurship and Management	260	316
 DL825	Applied Psychology	349	413
-DL826	Visual Communication Design	#736	989
-DL827	Art	#583	902
-DL828	3D Design, Modelmaking and Digital Art	#691	866
-DL829	Design for Stage and Screen (Costume Design)	#817	1021
-DL830	Design for Stage and Screen (Makeup Design)	#879	953
-DL831	Design for Stage and Screen (Production Design)	#893	1073
-DL832	Animation	#855	1055
-DL833	Photography	#636	791
-DL834	Film and Television Production	#933	1011
+DL826	Visual Communication Design	 736	989
+DL827	Art	 583 902
+DL828	3D Design, Modelmaking and Digital Art	 691 866
+DL829	Design for Stage and Screen (Costume Design)	 817 1021
+DL830	Design for Stage and Screen (Makeup Design)	 879 953
+DL831	Design for Stage and Screen (Production Design)	 893 1073
+DL832	Animation	 855 1055
+DL833	Photography	 636 791
+DL834	Film and Television Production	 933 1011
 DL835	Creative Media Technologies	237	289
 DL836	Creative Computing	217	326
 DL837	New Media Studies	290	349
-DL838	Creative Music Production	#746	873
+DL838	Creative Music Production	 746 873
 GC200	Business Studies (Cork)	269	359
 GC201	Accounting and Finance (Cork)	251	388
 GC230	Computing Science (Cork)	228	327
@@ -366,8 +366,8 @@ GC407	Business Studies (Marketing, Dublin)	246	330
 GC430	Computing Science (Dublin)	217	269
 GC450	Journalism and Visual Media (Dublin)	227	307
 GC462	Design Communication (Dublin)		
-GC489	Interior Architecture (Dublin)	#267	361
-GC494	Fashion Design (Dublin)	#	
+GC489	Interior Architecture (Dublin)	 267 361
+GC494	Fashion Design (Dublin)	 	
 ID001	Accounting and Finance	229	291
 ID002	Business Studies	285	366
 ID003	Business Studies with Chinese		
@@ -413,16 +413,16 @@ TA326	DNA and Forensic Analysis	300	362
 TA327	Sports Science and Health	341	381
 TA328	Computing with Language (French/German/Spanish)	218	317
 TA329	Computing with Data Analytics	218	296
-AD101	First Year Art & Design (Common Entry)	# +mat	550
-AD102	Graphic Design and Moving Image Design	# +mat	635
-AD103	Textile & Surface Design and Jewellery & Objects	# +mat	545
-AD202	Education & Design or Fine Art (Second Level Teaching)	# +mat	580
-AD204	Fine Art	# +mat	600
-AD211	Fashion Design	# +mat	600
-AD212	Product Design	# +mat	600
+AD101	First Year Art & Design (Common Entry)	    	550
+AD102	Graphic Design and Moving Image Design	    	635
+AD103	Textile & Surface Design and Jewellery & Objects	    	545
+AD202	Education & Design or Fine Art (Second Level Teaching)	    	580
+AD204	Fine Art	    	600
+AD211	Fashion Design	    	600
+AD212	Product Design	    	600
 AD215	Visual Culture	300	338
-AD217	Illustration	# +mat	625
-AD222	Interaction Design	# +mat	657
+AD217	Illustration	    	625
+AD222	Interaction Design	    	657
 NC003	Computing (Degree Award options)	261	316
 NC005	Human Resource Management	297	320
 NC009	Business	297	339
@@ -431,66 +431,66 @@ NC020	Marketing Practice	270	307
 NC022	Accounting and Finance	338	376
 NC023	Technology Management (with specialisations)	260	303
 NC025	Data Science	297	371
-RC001	Medicine - Undergraduate Entry (HPAT required)	#729	733
-RC004	Physiotherapy	532*	542
+RC001	Medicine - Undergraduate Entry (HPAT required)	 729 733
+RC004	Physiotherapy	532  542
 RC005	Pharmacy	555	566
-RC101	Medicine - Graduate Entry (GAMSAT required)	#60	62
-TR002	Music	#414	473
+RC101	Medicine - Graduate Entry (GAMSAT required)	 60	62
+TR002	Music	 414 473
 TR003	History	486	518
 TR004	Law	532	552
 TR005	Philosophy	391	446
-TR006	Psychology	555*	577
+TR006	Psychology	555 577
 TR007	Clinical Speech and Language Studies	499	529
-TR009	Music Education	#430	465
-TR012	History and Political Science	532*	557
+TR009	Music Education	 430 465
+TR012	History and Political Science	532  557
 TR015	Philosophy, Political Science, Economics and Sociology	566	577
 TR016	Deaf Studies	337	372
 TR017	Law and Business	576	589
-TR018	Law and French	532*	554
+TR018	Law and French	532  554
 TR019	Law and German	523	555
 TR020	Law and Political Science	567	600
 TR021	Classics, Ancient History and Archaeology	377	495
 TR022	Early and Modern Irish	347	407
 TR023	English Studies	463	511
 TR024	European Studies	520	544
-TR025	Drama and Theatre Studies	#489	531
+TR025	Drama and Theatre Studies	 489 531
 TR028	Ancient and Medieval History and Culture	339	451
 TR029	Political Science and Geography	477	500
 TR031	Mathematics	566	589
-TR032	Engineering	487*	520
-TR033	Computer Science	465*	488
-TR034	Management Science and Information Systems Studies	589*	602
+TR032	Engineering	487 	520
+TR033	Computer Science	465 488
+TR034	Management Science and Information Systems Studies	589 602
 TR035	Theoretical Physics	554	601
 TR038	Engineering with Management	499	543
 TR039	Computer Science and Language	435	498
 TR040	Middle Eastern and European Languages and Cultures	485	518
 TR041	Religion	347	393
-TR051	Medicine (HPAT required)	#730	739
-TR052	Dental Science	590*	602
-TR053	Physiotherapy	533*	544
+TR051	Medicine (HPAT required)	 730	739
+TR052	Dental Science	590 	602
+TR053	Physiotherapy	533 	544
 TR054	Occupational Therapy	500	520
 TR055	Radiation Therapy	510	521
 TR056	Human Health and Disease	543	565
-TR060	Biological and Biomedical Sciences	510*	542
-TR061	Chemical Sciences	488*	520
+TR060	Biological and Biomedical Sciences	510 	542
+TR061	Chemical Sciences	488 	520
 TR062	Geography and Geoscience	435	485
-TR063	Physical Sciences	498*	543
-TR072	Pharmacy	555*	577
+TR063	Physical Sciences	498 	543
+TR072	Pharmacy	555 	577
 TR080	Global Business	565	577
-TR081	Business, Economic and Social Studies (BESS)	518*	542
+TR081	Business, Economic and Social Studies (BESS)	518 542
 TR082	Computer Science and Business	510	542
 TR083	Sociology and Social Policy	451	474
-TR084	Social Studies (Social Work)	420*	462
+TR084	Social Studies (Social Work)	420 462
 TR085	Business Studies and French	509	553
 TR086	Business Studies and German	474	495
 TR087	Business Studies and Russian	467	487
 TR089	Business Studies and Polish	393	434
 TR090	Business Studies and Spanish	510	543
-TR091	General Nursing (Meath and St James's)	393*	420
-TR093	General Nursing (Adelaide School of Nursing)	#378*	409
+TR091	General Nursing (Meath and St James's)	393 420
+TR093	General Nursing (Adelaide School of Nursing)	 378 409
 TR095	Mental Health Nursing	358	377
 TR097	Intellectual Disability Nursing	346	350
-TR911	Children's and General Nursing (Integrated)	476*	487
+TR911	Children's and General Nursing (Integrated)	476 487
 TR913	Midwifery	423	462
 DN100	Architecture	473	509
 DN120	Landscape Architecture	353	403
@@ -506,27 +506,27 @@ DN261	Food Science	434	467
 DN262	Human Nutrition	493	510
 DN271	Forestry	303	361
 DN272	Horticulture, Landscape and Sportsturf Management	252	312
-DN300	Veterinary Medicine - Undergraduate Entry	#567	589
-DN301	Veterinary Medicine - Graduate Entry	#	
+DN300	Veterinary Medicine - Undergraduate Entry	 567 589
+DN301	Veterinary Medicine - Graduate Entry	 	
 DN310	Veterinary Nursing	441	487
-DN400	Medicine - Undergraduate Entry (HPAT required)	#735	745
-DN401	Medicine - Graduate Entry (GAMSAT required)	#59*	61
+DN400	Medicine - Undergraduate Entry (HPAT required)	 735 745
+DN401	Medicine - Graduate Entry (GAMSAT required)	 59  61
 DN410	Radiography	507	522
-DN411	Radiography - Graduate Entry	#	
+DN411	Radiography - Graduate Entry	 	
 DN420	Physiotherapy	542	555
 DN425	Health and Performance Science	488	509
 DN430	Sport and Exercise Management	436	455
-DN440	Biomedical, Health and Life Sciences	565*	579
+DN440	Biomedical, Health and Life Sciences	565 579
 DN450	General Nursing	398	420
-DN451	Children's and General Nursing (Integrated)	462*	499
+DN451	Children's and General Nursing (Integrated)	462 499
 DN452	Midwifery	409	452
 DN453	Mental Health Nursing	379	403
 DN520	Arts (Two Subjects)	336	408
 DN530	Humanities (options)	348	411
 DN541	Modern Languages (options)	348	412
-DN600	Law (options)	520*	532
+DN600	Law (options)	520 	532
 DN610	Business and Law	521	543
-DN650	Commerce	498*	510
+DN650	Commerce	498 	510
 DN660	Commerce International (options)	507	531
 DN670	Economics and Finance	601	601
 DN700	Social Sciences (options)	388	441
@@ -541,7 +541,7 @@ DK830	Building Surveying	302	349
 DK831	Architectural Technology	301	366
 DK832	Construction Management	300	329
 DK843	Engineering (Common Entry)	303	402
-DK860	Music	#499	649
+DK860	Music	 499	649
 DK861	Arts	300	358
 DK862	Social Care	300	338
 DK863	Creative Media	300	376
@@ -551,7 +551,7 @@ DK870	General Nursing	392	401
 DK872	Intellectual Disability Nursing	300	317
 DK874	Mental Health Nursing	356	378
 DK876	Early Childhood Studies	305	359
-DK877	Midwifery	398*	441
+DK877	Midwifery	398 	441
 DK880	Health and Physical Activity	300	367
 DK882	Agriculture (Award options)	303	358
 DK883	Science (Award options)	300	369
@@ -593,7 +593,7 @@ GA788	Computing and Digital Media	270	327
 GA789	Agriculture and Environmental Management (Mountbellew Campus)	297	339
 GA790	Sport and Exercise Science	350	379
 GA791	Public Health Nutrition	364	397
-GA880	General Nursing - Mayo Campus	389*	400
+GA880	General Nursing - Mayo Campus	389 400
 GA882	Psychiatric Nursing - Mayo Campus	346	370
 GA885	Outdoor Education - Mayo Campus	210	298
 GA887	History and Geography - Mayo Campus	228	296
@@ -639,8 +639,8 @@ GY209	Commerce (Global Experience)	509	531
 GY250	Law & Business	436	467
 GY251	Law	473	498
 GY252	Law & Human Rights	510	521
-GY261	Business Studies (International Hotel Management, Shannon)	#486	615
-GY262	Commerce (International Hotel Management, Shannon)	#671	726
+GY261	Business Studies (International Hotel Management, Shannon)	 486	615
+GY262	Commerce (International Hotel Management, Shannon)	 671	726
 GY301	Science	400	456
 GY303	Biomedical Science	533	566
 GY304	Biotechnology	473	507
@@ -661,7 +661,7 @@ GY408	Biomedical Engineering	519	543
 GY410	Project and Construction Management	434	464
 GY413	Energy Systems Engineering	532	589
 GY414	Electrical and Electronic Engineering	454	487
-GY501	Medicine (five year/six year course, HPAT required)	#726*	731
+GY501	Medicine (five year/six year course, HPAT required)	 726 731
 GY502	Occupational Therapy	532	543
 GY503	Speech and Language Therapy	529	543
 GY504	Podiatric Medicine	434	463
@@ -673,7 +673,7 @@ LY118	Business	287	352
 LY208	Law	300	359
 LY218	Business - with Spanish/Irish options	298	367
 LY228	Sports and Exercise (Common Entry)	278	330
-LY408	Design (Common Entry)	#307	368
+LY408	Design (Common Entry)	 307 368
 LY508	Fire Safety Engineering	270	299
 LY518	Quantity Surveying	307	368
 LY528	Construction Management	267	291
@@ -683,14 +683,14 @@ LY708	Applied Computing	300	348
 LY818	Science (Common Entry)	302	371
 LY828	Agriculture (Common Entry)	300	342
 LY908	General Nursing	383	390
-LY918	Psychiatric Nursing	291*	332
+LY918	Psychiatric Nursing	291 	332
 LY928	Intellectual Disability Nursing	288	299
 LY968	Early Childhood Care, Health and Education	300	336
 LY978	Health & Social Care (Common Entry)	260	299
 MI001	Contemporary & Applied Theatre Studies	345	381
 MI002	Arts (offered in conjunction with the University of Limerick)	300	378
-MI005	Education - Primary Teaching	473*	506
-MI006	Education - Primary Teaching (Gaeltacht Applicants)	#442	473
+MI005	Education - Primary Teaching	473 506
+MI006	Education - Primary Teaching (Gaeltacht Applicants)	 442 473
 MI007	Early Childhood Care and Education	366	402
 MI008	Education and Psychology - Primary Teaching	543	555
 MI009	Education, Business Studies and Accounting (Thurles Campus)	392	420
@@ -699,8 +699,8 @@ MI011	Education, Irish and Religious Studies (Thurles Campus)	377	387
 MI012	Education, Irish and Business Studies (Thurles Campus)	398	440
 MI013	Education, Mathematics and Gaeilge (Thurles Campus)	433	465
 CI101	Counselling and Psychotherapy (Limerick)	276	328
-LC110	Art and Design (Common Entry, portfolio)	#734	918
-LC114	Fashion and Textiles for Product and Costume (portfolio)	#900	988
+LC110	Art and Design (Common Entry, portfolio)	 734 918
+LC114	Fashion and Textiles for Product and Costume (portfolio)	 900 988
 LC220	Digital Marketing	254	288
 LC223	Law and Taxation	308	372
 LC224	Accounting and Finance	299	382
@@ -745,14 +745,14 @@ LC411	Marketing and Management (Thurles)	226	300
 LC418	Computing - Games Design and Development (Thurles)	271	318
 LC422	Sports Strength and Conditioning (Thurles)	288	333
 LC434	Environmental Management in Agriculture (Thurles)	278	347
-LC502	Game Art and Design (Clonmel, portfolio)	#838	950
+LC502	Game Art and Design (Clonmel, portfolio)	 838	950
 LC517	Creative Media and Design (Clonmel)	229	273
-LC518	Digital Animation Production (Clonmel, portfolio)	#816	962
+LC518	Digital Animation Production (Clonmel, portfolio)	 816	962
 LC612	Social Care Work (Ennis)	319	338
 LC613	Early Childhood Education & Care (Ennis)	346	388
 LM002	Arts (offered in conjunction with Mary Immaculate College)	329	388
 LM020	Law and Accounting	436	476
-LM026	Performing Arts (audition required)	#307	367
+LM026	Performing Arts (audition required)	 307	367
 LM028	Criminal Justice	387	409
 LM029	Law Plus	473	499
 LM038	Psychology and Sociology	478	489
@@ -764,21 +764,21 @@ LM056	International Business	511	543
 LM058	Financial Mathematics	434	543
 LM063	Technology Management	372	409
 LM068	Food Science and Health	400	430
-LM076	Product Design and Technology (portfolio required)	#402	466
+LM076	Product Design and Technology (portfolio required)	 402 466
 LM077	Aeronautical Engineering	469	531
 LM082	Construction Management and Engineering	368	404
 LM089	Sport and Exercise Sciences	441	466
-LM090	Physical Education with concurrent Teacher Education	498*	520
+LM090	Physical Education with concurrent Teacher Education	498 520
 LM092	Science with Teacher Ed (Biology with Physics/Chemistry/Ag Science)	478	509
 LM093	Equine Science	338	381
 LM094	Materials and Architectural Technology with concurrent Teacher Education	405	433
 LM095	Materials and Engineering Technology with concurrent Teacher Education	358	409
 LM096	Science with Teacher Ed (Physical Sciences with Chemistry and Physics)	382	422
-LM099	Architecture (portfolio required)	#419	473
-LM100	Physiotherapy	565*	577
-LM101	Medicine  - Graduate Entry (GAMSAT required)	#55*	57
+LM099	Architecture (portfolio required)	 419 473
+LM100	Physiotherapy	565 577
+LM101	Medicine  - Graduate Entry (GAMSAT required)	 55 57
 LM102	Psychology	495	519
-LM103	Paramedic Studies (B and C1 Drivers Licence)	#313	403
+LM103	Paramedic Studies (B and C1 Drivers Licence)	 313 403
 LM115	Chemical and Biochemical Engineering	456	520
 LM116	Engineering (Biomedical/Civil/Design and Manufacture/Mechanical)	434	498
 LM118	Electronic and Computer Engineering	401	498
@@ -787,20 +787,20 @@ LM122	Creative Media and Interaction Design (Digital Design/Music Media Tech)	33
 LM123	Biological & Chemical Sciences (Biosci/Envir Sci/Ind Bio/IndPharma Chem)	412	455
 LM124	Mathematics (Math Science/Maths and Physics/Economics and Math Scienc	427	521
 LM125	Physics (Applied Physics/Mathematics and Physics)	405	509
-LM150	General Nursing	440*	463
+LM150	General Nursing	440 	463
 LM152	Mental Health Nursing	388	418
-LM154	Intellectual Disability Nursing	381*	408
+LM154	Intellectual Disability Nursing	381 408
 LM156	Midwifery	429	444
 MU001	Theology and Arts	290	318
 MU002	Theology	292	377
-MH001	Education - Primary Teaching (Froebel)	496*	520
-MH002	Education - Primary Teaching - Gaeltacht Applicants (Froebel)	#441*	
+MH001	Education - Primary Teaching (Froebel)	496 520
+MH002	Education - Primary Teaching - Gaeltacht Applicants (Froebel)	 441 	
 MH101	Arts	316	369
-MH103	Music	#	367
+MH103	Music	 	367
 MH106	Psychology - 3 years	495	499
 MH107	Social Science	326	349
 MH109	Media Studies	317	377
-MH116	Community and Youth Work (Full-Time)	#	271
+MH116	Community and Youth Work (Full-Time)	 	271
 MH201	Science	350	392
 MH202	Biotechnology	429	446
 MH204	Physics with Astrophysics	420	488
@@ -826,14 +826,14 @@ MH601	Computer Science through Arts (options)	342	369
 MH602	Computer Science through Science (options)	357	413
 MH603	Computational Thinking	520	543
 MH801	Early Childhood - Teaching and Learning (part-time)	347	358
-MH802	Community and Youth Work (part-time, in service	#	
-MH803	Local Studies or Community Studies (part-time, evening)- Mature Students	#	
-AS001	Education, Home Economics and Biology - with concurrent Teacher Ed	456*	497
-AS002	Education, Home Economics and Religious Ed - with concurrent Teacher Ed	400*	433
+MH802	Community and Youth Work (part-time, in service	 	
+MH803	Local Studies or Community Studies (part-time, evening)- Mature Students	 	
+AS001	Education, Home Economics and Biology - with concurrent Teacher Ed	456 497
+AS002	Education, Home Economics and Religious Ed - with concurrent Teacher Ed	400 433
 AS003	Education, Home Economics and Irish - with concurrent Teacher Ed	421	457
 AS051	Nutrition, Food and Business Management	337	399
 AS054	Home Economics	387	401
-AS110	General Nursing	391*	409
+AS110	General Nursing	391 409
 AS130	Intellectual Disability Nursing	317	338
 SG141	Business	252	317
 SG142	Business in International Marketing and Sales with French	270	388
@@ -845,7 +845,7 @@ SG149	Business in Finance and Investment	262	357
 SG241	Performing Arts	279	348
 SG242	Early Childhood Care and Education	278	318
 SG243	Social Care Practice	297	338
-SG244	Fine Art	#355	496
+SG244	Fine Art	 355	496
 SG245	Creative Design	261	338
 SG246	Computing	295	368
 SG247	English and Psychology	308	336
@@ -889,16 +889,16 @@ TL872	Health and Leisure with Massage	288	357
 TL873	Coaching and Sports Performance	282	336
 TL880	Early Childhood Care and Education	307	347
 TL881	Social Care	308	356
-TL889	Counselling with Addiction - Mature applicants only	#	
+TL889	Counselling with Addiction - Mature applicants only	 	
 TL890	General Nursing and Mature Applicants	407	431
-TL891	Mental Health Nursing and Mature Applicants	367*	379
+TL891	Mental Health Nursing and Mature Applicants	367 	379
 WD001	Applied Computing (options)	279	358
 WD002	Science (options)	302	377
 WD005	Health Sciences (options)	288	347
 WD006	Exercise Sciences (options)	282	337
 WD007	Engineering (options)	287	382
 WD025	Construction Management and Engineering	269	327
-WD027	Music	#290	317
+WD027	Music	 290	317
 WD048	Business (options)	278	357
 WD084	Accounting	307	403
 WD091	Hospitality Management	210	281

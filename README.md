@@ -28,12 +28,13 @@ This repository contains the following two jupyter notebooks as part of my proje
 ### How to run:
 
 1. Open [cmder] terminal.
-2. Select repository `fundamentals`.
-3. Run `jupyter lab` or `jupyter notebook`on the command line.
-4. The notebook should automatically launch in your browser. 
-5. If not, then you may need to temporarily disable security software as some internet security can interfere with jupyter. 
+2. Run `jupyter lab` or `jupyter notebook`on the command line.
+3. The notebook should automatically launch in your browser. 
+4. If not, then you may need to temporarily disable security software as some internet security can interfere with jupyter. 
+5. Or you can copy the http link in cmder and paste into the url box of your browser. 
 6. Once jupyter is open in your browser select either notebook: `pyplot.ipynb` or `cao.ipynb` 
-7. In the selected notebook click on `kernal` on the tool bar and then `restart and run all`. 
+7. Once the notebook is open click on `kernal` on the tool bar and then `restart and run all`. 
+8. Now the notebook is ready. 
 
 <br>
 
@@ -52,13 +53,7 @@ This repository contains the following two jupyter notebooks as part of my proje
 Matplotlib pyplot is a state based interface used for data visualisation. It is a convenient way for users to generate high quality plots with minimal effort. Pyplot can define and store the current state using various commands and functions. This package has 137 functions that can be used for plotting. In order to demonstrate how pyplot works this notebook explains for following plots in detail. 
 
 ### Horizontal Bar Plot
-This function takes data and plots it using horizontal bars. It has 5 parameters; y, width, height, left, align. The example in the notebook uses numpy random to generate data for y values and for the width values. Then other pyplot functions are used for example:
-- yticks sets the ticks and labels on each of the horizontal bars.
-- gca is used to invert the y-axis so that the place names match with the data generated for those cities.
-- xlabel is used to put a label on the x-axis
-- title adds a title to the plot
-- show is used to call and display the horizontal bar plot.
-- savefig is used to save the figure as a png file. 
+The example in the notebook uses numpy random to generate data for y values and for the width values. 
 
 <br>
 
@@ -67,9 +62,7 @@ This function takes data and plots it using horizontal bars. It has 5 parameters
 <br>
 
 ### Scatter Plot
-This function contains the following parameters; x, y, s, c, marker, cmap, norm, vmin, vmax, alpha, linewidths, edgecolors, plotnonfinite. This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency. Along with the scatter plot, these two other pyplot functions are used:
-- show is used to call and dsplay the scatter plot.
-savefig is used in order to save this figure as a png file. 
+This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency.
 
 <br>
 
@@ -78,16 +71,7 @@ savefig is used in order to save this figure as a png file.
 <br>
 
 ### Histogram
-Histograms uses these parameters; x, bins, range, density, weights, cumulative, bottom, histtype, align, orientation, rwidth, log, color, label, stacked. The histogram created in this notebook displays 10000 random values of mean and standard deviation in normal distribution. In other words, various mu and sigma values are passed into the argument as x and are plotted in a bell shaped curve. Other pyplot functions are used here for example:
-- xlabel sets the mu value label on the x-axis.
-- ylabel describes the sigma values on the y-axis.
-- title gives a title of the overall plot. 
-- text allows the user to add a text line on the plot at particulat coordinates. 
-- xlim sets the limits on the x-axis from left to right.
-- ylim sets the limits on the y-axis from bottom to top.
-- grid displays the plot on a grid.
-- show is used to call and display the histogram. 
-- savefig is also used here to create a png for this figure. 
+The histogram created in this notebook displays 10000 random values of mean and standard deviation in normal distribution. In other words, various mu and sigma values are passed into the argument as x and are plotted in a bell shaped curve.
 
 <br>
 
@@ -96,26 +80,46 @@ Histograms uses these parameters; x, bins, range, density, weights, cumulative, 
 <br>
 
 ### Subplots
-This function allows users to create one single figure with a set of subplots. It's parameters are; nrows, ncols, sharex, sharey, squeeze, subplot_kw, gridspec_kw, fig_kw. The subplot in this notebook sets one row with three columns. The sharex parameter is set to true which allows the data to be shares on all axes. Then the axs and fig functions are used to call a bar plot at position 0, a scatter plot at position 1 and the plot function plots a y versus x line. These three subplots are displayed in a row with a figure subtitle as seen below. 
+This function allows users to create one single figure with a set of subplots. The subplot in this notebook sets one row with three columns. The sharex parameter is set to true which allows the data to be shares on all axes. Then the axs and fig functions are used to call a bar plot at position 0, a scatter plot at position 1 and the plot function plots a y versus x line. These three subplots are displayed in a row with a figure subtitle as seen below. 
 
 <br>
 
 ![subplot_png](img/subplot.png)
 
 
-
 <br>
 
+
 ### 2. CAO Notebook
-Cao info here....
+
+### Convert points
+This notebook takes cao points information from 2021, 2020 and 2019 and combines them into one dataframe for analysis. 
+
+- 2021 points are converted from a http link to a csv file. Then regular expressions are used to select and identify the correct information that I want used. 
+
+
+- The 2020 points are converted from a excel spreadsheet into a csv file. Again this file had to be edited to remove unwanted preamble.
+
+
+- The 2019 points are taken from a PDF and also converted into a csv file. This was done by first saving as a word document and then copying and pasting into VS Studio Code in order to remove unwanted infomation.
+
+
+### Concat and join
+The next step was concating and joining the courses and points for all 3 years. This is doing using the concat and join function in pandas. While doing this I removed any duplicate course names and used the course code as the index. Then I saved this new combined dataframe as a csv file. This file is then used for analysis.  
+
+
+### Analysis
+An interesting note here was that when converting the 2019 cao points from a PDF to a csv file the data type was lost. This became apparent when attempting to analyse and plot the data. In order to rectify this issue I had to use pandas to numeric function. 
+
+
+For the analysis I used the following pandas funcitons: head, tail, shape, size, describe, count, mean, std, min, max, query, loc and iloc. Then I used the matplotlib pyplot package to plot horizonal bar plot, bar plots and line plots in order to visualise the analysis. 
+
 
 <br>
 
 
 ## Credits
-
-#### EXAMPLE
-I heavely relied on the EXAMPLE  when creating this repository. You can find it on []()
+I heavely relied on my lecturer's notes and instruction when creating this CAO notebook. You can find his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb)
 
 
 <br>
@@ -151,17 +155,20 @@ If you have any queries or if you would like to contribute to this repository pl
 <br>
 
 
-## Tests
-Maybe some troubleshooting problems here?? Errors?? Add later.....
+## Issues
+There were 2 major issues I came across when completing the cao notebook.
+
+1. Error on server: the cao web server displayed the incorrect encoding standard. It was displayed as `iso-8859-1`. However, it became apparent that \x96 was used on one line which ws referring to a fada. Therefore, I had to decode using `cp1252` which includes characters from the Latin alphabet. 
+
+
+2. Dtypes: the next major issue I had was with me new dataframe which contains the cao points from 2021, 2020 and 2019. I could not understand why the data was not plotting correctly. The error that was thrown suggested that not all values were numeric. After checking the data type of the dataframe I discovered that the 2019 points had lost it's data type during the conversion from a PDF to a csv file. Therefore, the pandas to numeric function had to be used to return the data from an object to a float format. 
 
 
 <br>
 
 
 ## Conclusion
-This readme contains a quick overview of two notebooks. 
-
-What would I do with this project in the future???
+This readme contains a quick overview of two notebooks. Pyplot protrays how to use matplotlb pyplot for data visualisation. This process was useful when completing my cao notebook. After extracting the cao points for analysis I used pyplot to aid with the plotting process. The cao notebook also shows users how to convert data from http, excel and PDF formats into csv files. Then it shows us how to combine 3 dataframes into 1. These skills are invaluable for data analysts as it presents data in an informative mannor.
 
 
 <br>

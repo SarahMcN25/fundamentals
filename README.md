@@ -20,7 +20,7 @@ This repository contains the following two jupyter notebooks as part of my proje
 
 ### Install
 
-1. Download and install [Anaconda]().
+1. Download and install [anaconda]().
 2. Download and install [cmder]() if on windows.
 
 <br>
@@ -49,10 +49,10 @@ This repository contains the following two jupyter notebooks as part of my proje
 
 ### Pyplot Notebook
 
-### The Matplotlib Pyplot Package
+#### The Matplotlib Pyplot Package
 Matplotlib pyplot is a state based interface used for data visualisation. It is a convenient way for users to generate high quality plots with minimal effort. Pyplot can define and store the current state using various commands and functions. This package has 137 functions that can be used for plotting. In order to demonstrate how pyplot works this notebook explains for following plots in detail. 
 
-### Horizontal Bar Plot
+#### Horizontal Bar Plot
 The example in the notebook uses numpy random to generate data for y values and for the width values. 
 
 <br>
@@ -61,7 +61,7 @@ The example in the notebook uses numpy random to generate data for y values and 
 
 <br>
 
-### Scatter Plot
+#### Scatter Plot
 This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency.
 
 <br>
@@ -70,7 +70,7 @@ This scatter plot uses the numpy random function again to generate values for x 
 
 <br>
 
-### Histogram
+#### Histogram
 The histogram created in this notebook displays 10000 random values of mean and standard deviation in normal distribution. In other words, various mu and sigma values are passed into the argument as x and are plotted in a bell shaped curve.
 
 <br>
@@ -79,7 +79,7 @@ The histogram created in this notebook displays 10000 random values of mean and 
 
 <br>
 
-### Subplots
+#### Subplots
 This function allows users to create one single figure with a set of subplots. The subplot in this notebook sets one row with three columns. The sharex parameter is set to true which allows the data to be shares on all axes. Then the axs and fig functions are used to call a bar plot at position 0, a scatter plot at position 1 and the plot function plots a y versus x line. These three subplots are displayed in a row with a figure subtitle as seen below. 
 
 <br>
@@ -92,7 +92,7 @@ This function allows users to create one single figure with a set of subplots. T
 
 ### 2. CAO Notebook
 
-### Convert points
+#### Convert points
 This notebook takes cao points information from 2021, 2020 and 2019 and combines them into one dataframe for analysis. 
 
 - 2021 points are converted from a http link to a csv file. Then regular expressions are used to select and identify the correct information that I want used. 
@@ -104,11 +104,11 @@ This notebook takes cao points information from 2021, 2020 and 2019 and combines
 - The 2019 points are taken from a PDF and also converted into a csv file. This was done by first saving as a word document and then copying and pasting into VS Studio Code in order to remove unwanted infomation.
 
 
-### Concat and join
+#### Concat and join
 The next step was concating and joining the courses and points for all 3 years. This is doing using the concat and join function in pandas. While doing this I removed any duplicate course names and used the course code as the index. Then I saved this new combined dataframe as a csv file. This file is then used for analysis.  
 
 
-### Analysis
+#### Analysis
 An interesting note here was that when converting the 2019 cao points from a PDF to a csv file the data type was lost. This became apparent when attempting to analyse and plot the data. In order to rectify this issue I had to use pandas to numeric function. 
 
 
@@ -119,7 +119,7 @@ For the analysis I used the following pandas funcitons: head, tail, shape, size,
 
 
 ## Credits
-I heavely relied on my lecturer's notes and instruction when creating this CAO notebook. You can find his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb)
+I heavely relied on my lecturer's notes and instruction when creating my CAO notebook. You can access his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb).
 
 
 <br>

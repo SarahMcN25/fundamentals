@@ -1,4 +1,9 @@
+anaconda
+cmder
 numpy
-matplotlib
+matplotlib.pyplot
+re
 requests
+datetime
 pandas
+urllib.requests

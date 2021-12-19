@@ -107,6 +107,7 @@ This notebook takes cao points information from 2021, 2020 and 2019 and combines
 #### Concat and join
 The next step was concating and joining the courses and points for all 3 years. This is doing using the concat and join function in pandas. While doing this I removed any duplicate course names and used the course code as the index. Then I saved this new combined dataframe as a csv file. This file is then used for analysis.  
 
+![df](img/df.png)
 
 #### Analysis
 An interesting note here was that when converting the 2019 cao points from a PDF to a csv file the data type was lost. This became apparent when attempting to analyse and plot the data. In order to rectify this issue I had to use pandas to numeric function. 
@@ -114,12 +115,27 @@ An interesting note here was that when converting the 2019 cao points from a PDF
 
 For the analysis I used the following pandas funcitons: head, tail, shape, size, describe, count, mean, std, min, max, query, loc and iloc. Then I used the matplotlib pyplot package to plot horizonal bar plot, bar plots and line plots in order to visualise the analysis. 
 
+![describe](img/describe.png)
+
+<br>
+
+![query](img/query.png)
+
+<br>
+
+![plots](img/allplots.png)
 
 <br>
 
 
 ## Credits
-I heavely relied on my lecturer's notes and instruction when creating my CAO notebook. You can access his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb).
+- For the pyplot notebook I heavily relied on the offical [matplotlib pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html) documentation.
+
+
+- For the cao notebook I heavely relied on my lecturer's notes and instruction when extracting and creating the dataframes. You can access his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb). 
+
+
+- I also used the [geeksforgeeks](https://www.geeksforgeeks.org/) website when creating both notebooks. This website is user friendly and describes python methods and functions is a very clear and coherent way. I would highly recommend you google and read any of their blogs.
 
 
 <br>
@@ -128,17 +144,13 @@ I heavely relied on my lecturer's notes and instruction when creating my CAO not
 ## Badges
 
 ### NB viewer
-[Nbviewer](https://nbviewer.org/) is an online tool created by the Jupyter community for rendering notebooks in static form.
-
 You can view both notebooks on nbviewer by clicking on the following badge:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/SarahMcN25/fundamentals/tree/main/)
 
 
 ### Binder
-Mybinder is an online service where you can share a notebook in a dynamic and interactive way.
-
-You can view these notebooks on mybinder by clicking on the following badge:
+You can view these notebooks on mybinder by clicking on this badge:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SarahMcN25/fundamentals/HEAD)
 
@@ -176,7 +188,7 @@ This readme contains a quick overview of two notebooks. Pyplot protrays how to u
 
 ## References
 
-All references and code used in these notebooks have been sourced in Oct/Nov/Dec 2021 and cited in each notebook. 
+All references and code used in these notebooks have been sourced in Oct/Nov/Dec 2021 and cited at the end of each notebook. 
 
 <br>
 

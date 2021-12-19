@@ -10,7 +10,7 @@ This repository contains the following two jupyter notebooks as part of my proje
 1. `pyplot.ipynb` contains an overview of the matplotlib pyplot package in python and an in-depth explanation of three plots.
 
 
-2. `cao.ipynb` explains how to load the CAO points information from the official website into data frames using pandas and then compares the CAO points from 2019, 2020 and 2021.
+2. `cao.ipynb` explains how to load the CAO points information from the official website into dataframes using pandas and then compares the CAO points from 2019, 2020 and 2021.
 
 
 <br>
@@ -18,7 +18,7 @@ This repository contains the following two jupyter notebooks as part of my proje
 
 ## Quick Steps
 
-### Install
+### Install the following:
 
 1. Download and install [anaconda]().
 2. Download and install [cmder]() if on windows.
@@ -53,7 +53,7 @@ This repository contains the following two jupyter notebooks as part of my proje
 Matplotlib pyplot is a state based interface used for data visualisation. It is a convenient way for users to generate high quality plots with minimal effort. Pyplot can define and store the current state using various commands and functions. This package has 137 functions that can be used for plotting. In order to demonstrate how pyplot works this notebook explains for following plots in detail. 
 
 #### Horizontal Bar Plot
-The example in the notebook uses numpy random to generate data for y values and for the width values. 
+The example in the notebook uses numpy random to generate data for y-axis values. 
 
 <br>
 
@@ -62,7 +62,7 @@ The example in the notebook uses numpy random to generate data for y values and 
 <br>
 
 #### Scatter Plot
-This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while alpha allows for slight transparency.
+This scatter plot uses the numpy random function again to generate values for x and y. It also generates random color values while also producing random sizes for the markers. As shown here, there are various sizes and colors used in this plot while the alpha parameter allows for slight transparency.
 
 <br>
 
@@ -95,25 +95,25 @@ This function allows users to create one single figure with a set of subplots. T
 #### Convert points
 This notebook takes cao points information from 2021, 2020 and 2019 and combines them into one dataframe for analysis. 
 
-- 2021 points are converted from a http link to a csv file. Then regular expressions are used to select and identify the correct information that I want used. 
+- 2021 points are converted from a http link into a csv file. Then regular expressions are used to extract particular information. 
 
 
 - The 2020 points are converted from a excel spreadsheet into a csv file. Again this file had to be edited to remove unwanted preamble.
 
 
-- The 2019 points are taken from a PDF and also converted into a csv file. This was done by first saving as a word document and then copying and pasting into VS Studio Code in order to remove unwanted infomation.
+- The 2019 points are taken from a PDF and also converted into a csv file. This was done by first saving as a word document and then copying and pasting into VS Studio Code in order to edit.
 
 
 #### Concat and join
-The next step was concating and joining the courses and points for all 3 years. This is doing using the concat and join function in pandas. While doing this I removed any duplicate course names and used the course code as the index. Then I saved this new combined dataframe as a csv file. This file is then used for analysis.  
+The next step was concating and joining the courses and points for all 3 years. This is done by using the concat and join function in pandas. While doing this I removed any duplicate course names and used the course code as the index. Then I saved this new combined dataframe as a csv file. This file is then used for analysis. Here is an image of the dataframe created in this notebook.  
 
 ![df](img/df.png)
 
 #### Analysis
-An interesting note here was that when converting the 2019 cao points from a PDF to a csv file the data type was lost. This became apparent when attempting to analyse and plot the data. In order to rectify this issue I had to use pandas to numeric function. 
+An interesting note here was that when converting the 2019 cao points from a PDF to a csv file the data type was lost. This became apparent when attempting to analyse and plot the data. In order to rectify this issue I had to use the pandas to numeric function to convert the data back to it's numeric form. 
 
 
-For the analysis I used the following pandas funcitons: head, tail, shape, size, describe, count, mean, std, min, max, query, loc and iloc. Then I used the matplotlib pyplot package to plot horizonal bar plot, bar plots and line plots in order to visualise the analysis. 
+For the analysis I used the following pandas funcitons: head, tail, shape, size, describe, count, mean, std, min, max, query, loc and iloc. Then I used the matplotlib pyplot package to plot horizonal bar plot, bar plots and line plots in order to visualise the analysis. These can be seen in the images below.
 
 ![describe](img/describe.png)
 
@@ -132,10 +132,10 @@ For the analysis I used the following pandas funcitons: head, tail, shape, size,
 - For the pyplot notebook I heavily relied on the offical [matplotlib pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html) documentation.
 
 
-- For the cao notebook I heavely relied on my lecturer's notes and instruction when extracting and creating the dataframes. You can access his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb). 
+- For the cao notebook I heavely relied on my lecturer's notes and instruction when extracting and creating the dataframes. You can access his notebook [here](https://github.com/ianmcloughlin/cao-points/blob/main/cao-points-analysis.ipynb). I also relied on the offical [pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) documentation when analysising the data. 
 
 
-- I also used the [geeksforgeeks](https://www.geeksforgeeks.org/) website when creating both notebooks. This website is user friendly and describes python methods and functions is a very clear and coherent way. I would highly recommend you google and read any of their blogs.
+- I also used the [geeksforgeeks](https://www.geeksforgeeks.org/) website when creating both notebooks. This website is user friendly and describes python methods and functions is a very clear and coherent way. I would highly recommend you google and read any of their blogs if you are new to progamming. 
 
 
 <br>
@@ -170,17 +170,17 @@ If you have any queries or if you would like to contribute to this repository pl
 ## Issues
 There were 2 major issues I came across when completing the cao notebook.
 
-1. Error on server: the cao web server displayed the incorrect encoding standard. It was displayed as `iso-8859-1`. However, it became apparent that \x96 was used on one line which ws referring to a fada. Therefore, I had to decode using `cp1252` which includes characters from the Latin alphabet. 
+1. Error on server: the cao web server displayed the incorrect encoding standard. It was displayed as `iso-8859-1`. However, it became apparent that \x96 was used on one line which was referring to a fada. Therefore, I had to decode using `cp1252` which includes characters from the Latin alphabet. 
 
 
-2. Dtypes: the next major issue I had was with me new dataframe which contains the cao points from 2021, 2020 and 2019. I could not understand why the data was not plotting correctly. The error that was thrown suggested that not all values were numeric. After checking the data type of the dataframe I discovered that the 2019 points had lost it's data type during the conversion from a PDF to a csv file. Therefore, the pandas to numeric function had to be used to return the data from an object to a float format. 
+2. Dtypes: the next major issue I had was with my new dataframe which contains the cao points from 2021, 2020 and 2019. I couldn't understand why the data was not plotting correctly. The error that was thrown suggested that not all values were numeric. After checking the data type of the dataframe I discovered that the 2019 points had lost it's data type during the conversion from a PDF to a csv file. Therefore, the pandas to numeric function had to be used in order to return the data from an object to a float. 
 
 
 <br>
 
 
 ## Conclusion
-This readme contains a quick overview of two notebooks. Pyplot protrays how to use matplotlb pyplot for data visualisation. This process was useful when completing my cao notebook. After extracting the cao points for analysis I used pyplot to aid with the plotting process. The cao notebook also shows users how to convert data from http, excel and PDF formats into csv files. Then it shows us how to combine 3 dataframes into 1. These skills are invaluable for data analysts as it presents data in an informative mannor.
+This readme contains a quick overview of the two notebooks in this repository. Pyplot protrays how to use matplotlb pyplot for data visualisation. This process was useful when completing my cao notebook. After extracting the cao points for analysis I used pyplot to aid with the plotting process. The cao notebook also shows users how to convert data from http, excel and PDF formats into csv files. Then it shows us how to combine 3 dataframes into 1. These skills are invaluable for data analysts as it presents data in an informative and constructive mannor.
 
 
 <br>
